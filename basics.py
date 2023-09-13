@@ -46,3 +46,14 @@ print('index/=2:', index)
 index = 10
 index %=2
 print('index%=2:', index)
+
+greeting = 'Hello'
+print('Let\'s say greeting = "Hello"')
+greeting+= " World"
+print('greeting+= " World" is:', greeting)
+
+items=['item']
+print('Let\'s say items=["item"]')
+items *=3
+print('items*=3 is:', items)
+
