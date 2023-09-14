@@ -57,3 +57,39 @@ print('Let\'s say items=["item"]')
 items *=3
 print('items*=3 is:', items)
 
+print('\n')
+# END KEYWORD
+print('END KEYWORD:')
+phrases = ['printed', 'with', 'a', 'dash', 'in', 'between']
+print('Let\'s say we have this array: phrases = ["printed", "with", "a", "dash", "in", "between"] and if we want to travel all array items with end operator')
+for phrase in phrases:
+  print('Phrase:', phrase, end=' END\n')
+print('\n')
+
+#SEP KEYWORD
+print('SEP KEYWORD:')
+print('If we want to print elements with comma:')
+print('item1', 'item2', 'item3', sep=',')
+print('\n')
+
+#INPUT FUNCTION
+print('INPUT FUNCTION:')
+my_name = input('Hello! What is your name?')
+print(f'Hello {my_name}. How are you?')
+print('\n')
+
+#LEN FUNCTION
+print('LEN FUNCTION:')
+print('Let\'s say we have this array: items=["item", "item", "item"]')
+items=["item", "item", "item"]
+print('Length of items array:', len(items))
+print('Even we can calculate the length of the first element of that array:', len(items[0]))
+print('\n')
+
+#str, int, float FUNCTIONS
+print('str, int, float FUNCTIONS:')
+print('Let\'s make a string from any number: str(40)', str(40))
+print('Let\'s make a integer from any string: int("40")', int('40'))
+print('Let\'s make a float from any string: float("3.14")', float('3.14'))
+
+print('\n')
